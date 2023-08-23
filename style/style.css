@@ -40,6 +40,10 @@ h1 {
     padding: 18px 0px;
 }
 
+.logo {
+    display: block;
+}
+
 .logo__link {
     display: flex;
     align-items: center;
@@ -882,4 +886,382 @@ h1 {
 .free-trial__icons {
     display: flex;
     gap: 40px;
+}
+
+@media (max-width: 320px) {
+
+.body {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.36px;
+}
+
+.container {
+    max-width: 320px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+.header-wrapper {
+    padding: 16px 0;
+}
+
+.logo__img {
+    width: 26px;
+    height: 20px;
+    flex-shrink: 0;
+    padding-right: 7px;
+}
+.logo__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19.644px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav {
+    display: none;
+}
+.nav-mobile {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav__btn {
+}
+.nav__btn-item {
+}
+.nav__btn-item-link {
+}
+.nav__btn-left {
+    margin: 0;
+}
+.nav__btn-right {
+    margin: 0;
+}
+.nav__btn-icon {
+}
+.main {
+}
+.hero-section {
+}
+.hero-section__wrapper {
+}
+.hero-section__heading {
+}
+.hero-section__title {
+}
+.hero-section__text {
+}
+.hero-section__btn {
+}
+.hero-section__img-container {
+}
+.work-managment {
+}
+.work-managment__wrapper {
+}
+.project-managment {
+}
+.project-managent__text {
+}
+.project-managment__title {
+}
+.project-managment__text {
+}
+.project-managment__btn {
+}
+.project-managment__btn-icon {
+}
+.project-managment__img-container {
+}
+.project-managment__img {
+}
+.work-together {
+}
+.work-together__img-container {
+}
+.work-together__img {
+}
+.work-together__text {
+}
+.work-together__title {
+}
+.work-together__btn {
+}
+.work-together__btn-icon {
+}
+.use-as {
+}
+.use-as__wrapper {
+}
+.use-as__heading {
+}
+.use-as__title {
+}
+.use-as__text {
+}
+.use-as__btn {
+}
+.use-as__btn-img {
+}
+.use-as__img-container {
+}
+.use-as__img {
+}
+.customise {
+}
+.customise__wrapper {
+}
+.customise__img-container {
+}
+.customise__img {
+}
+.customise__heading {
+}
+.customise__title {
+}
+.customise__swab {
+}
+.customise__text {
+}
+.plan {
+}
+.plan__wrapper {
+}
+.plan__heading {
+}
+.plan__title {
+}
+.plan__text {
+}
+.plan__price-list {
+}
+.plan__free {
+}
+.plan__free-wrapper {
+}
+.plan__free-box {
+}
+.plan__free-title {
+}
+.plan__free-price {
+}
+.plan__free-text {
+}
+.plan__bullet-point {
+}
+.plan__list {
+}
+.plan__list-item {
+}
+.plan__list-point {
+}
+.plan__free-btn {
+}
+.plan__btn {
+}
+.plan__personal {
+}
+.plan__personal-wrapper {
+}
+.plan__personal-box {
+}
+.plan__personal-title {
+}
+.plan__personal-price {
+}
+.plan__personal-text {
+}
+.plan__personal-btn {
+}
+.personal-btn {
+}
+.plan__organization {
+}
+.plan__organization-wrapper {
+}
+.your-work {
+}
+.your-work__wrapper {
+}
+.your-work__textbox {
+}
+.your-work__title {
+}
+.your-work__text {
+}
+.your-work__btnbox {
+}
+.your-work__btn {
+}
+.your-work__btn-icon {
+}
+.your-data {
+}
+.your-data__wrapper {
+}
+.your-data__heading {
+}
+.your-data__textbox {
+}
+.your-data__title {
+}
+.your-data__text {
+}
+.your-data__btnbox {
+}
+.your-data__btn {
+}
+.your-data__img-container {
+}
+.your-data__img {
+}
+.our-sponsors {
+}
+.our-sponsors__wrapper {
+}
+.our-sponsors__title {
+}
+.our-sponsors__imgbox {
+}
+.our-sponsors__img-link {
+}
+.our-sponsors__img {
+}
+.apps {
+}
+.apps__wrapper {
+}
+.apps__img-container {
+}
+.apps__img {
+}
+.apps__heading {
+}
+.apps__heading-textbox {
+}
+.apps__heading-title {
+}
+.apps__heading-text {
+}
+.apps__btnbox {
+}
+.apps__btn {
+}
+.apps__btn-icon {
+}
+.feedback {
+}
+.feedback__wrapper {
+}
+.feedback__heading {
+}
+.feedback__title {
+}
+.feedback__slider-container {
+}
+.feedback__slider {
+}
+.slide {
+}
+.feedback-label {
+}
+.feedback-label__wrapper {
+}
+.left-comm {
+}
+.feedback__comment {
+}
+.quotes {
+}
+.feedback__comment-text {
+}
+.feedback__name-box {
+}
+.feedback__avatar-box {
+}
+.feedback__avatar {
+}
+.feedback__user-info {
+}
+.feedback__user-name {
+}
+.feedback__user-location {
+}
+.slider-dots {
+}
+.dot {
+}
+.free-trial {
+}
+.free-trial__wrapper {
+}
+.free-trial__textbox {
+}
+.free-trial__title {
+}
+.free-trial__text {
+}
+.free-trial__btnbox {
+}
+.free-trial__btn {
+}
+.free-trial__btn-text {
+}
+.free-trial__btn-icon {
+}
+.free-trial__contact-sales {
+}
+.free-trial__icons {
+}
+.free-trial__icon {
+}
+.footer {
+}
+.footer__nav-info {
+}
+.footer__info-list {
+}
+.footer__info-logo {
+}
+.footer__logo-icon {
+}
+.footer__info-item {
+}
+.footer__info-title {
+}
+.footer__info-link {
+}
+.footer__info-try-title {
+}
+.footer__info-btn-li {
+}
+.footer__info-btn-link {
+}
+.footer__info-btn {
+}
+.footer__info-btn-img {
+}
+.footer__btm-wrapper {
+}
+.footer__btm-nav {
+}
+.footer__btm-list {
+}
+.footer__btm-item {
+}
+.footer__world-icon {
+}
+.footer_btm-down-arrow {
+}
+.footer__btm-link {
+}
+.footer__btm-social-img {
+}
 }
